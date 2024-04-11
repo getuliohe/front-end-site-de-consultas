@@ -1,0 +1,20 @@
+.cabecalho{
+    display: flex;
+    padding: 3em 1em 1em 1em;
+    width: 100%;
+    align-items: center;
+    gap: 1em;
+}
+
+.cabecalho__titulo{
+    color: var(--grafite);
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 0.3em;
+}
+
+.cabecalho__subtitulo{
+    color: var(--cinza-claro);
+    font-size: 14px;
+    font-weight: 400;
+}

@@ -1,0 +1,105 @@
+.paciente__nome{
+    color: var(--grafite);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.paciente__tipo-consulta__texto{
+    color: var(--cinza-claro);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.consulta__remota__horario{
+    color: var(--grafite);
+    font-size: 12px;
+    font-weight: 500;
+}
+.consultas{
+    padding: 1em;
+}
+
+.consultas__dia{
+    font-weight: 700;
+    color: var(--grafite);
+}
+
+.consulta__remota{
+    display: flex;
+    flex-direction: column;
+    margin: 1em 0;
+    border-radius: 8px;
+    background-color: var(--branco);
+}
+
+.consulta__remota__cabecalho{
+    display: flex;
+    gap: 1em;
+    padding: 1.5em 1.2em 0.8em 1.2em;
+    border-bottom: 1.5px solid var(--gelo-escuro);
+}
+
+.paciente__tipo-consulta{
+    margin-top: 0.3em;
+    display: flex;
+    gap: 0.5em;
+}
+
+.icone__chat{
+    margin-left: auto;
+}
+
+/* .icone__chat__imagem{
+    background-color: var(--gelo-escuro);
+    border-radius: 100px;
+    padding: 0.6em;
+} */
+
+.consulta__remota__conteudo{
+    padding: 1.5em 1.2em 0.8em 1.2em;
+}
+
+.consulta__remota__botoes{
+    margin-top: 0.7em;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.consulta__remota__botoes__video{
+    color: var(--branco);
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: var(--laranja);
+    padding: 1em;
+    border-radius: 8px;
+}
+
+.consulta__remota__botoes__audio{
+    color: var(--grafite);
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: transparent;
+    padding: 1em;
+    border: 1px solid var(--gelo);
+    border-radius: 8px;
+}
+
+.consulta__botoes{
+    margin-top: 0.7em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.consulta__botoes__endereco{
+    color: var(--branco);
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: var(--azul);
+    padding: 1em 35%;
+    border-radius: 8px;
+}
